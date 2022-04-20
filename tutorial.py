@@ -23,4 +23,4 @@ async def help(ctx):
     )
     await ctx.send(embed=embed)
 
-bot.run("")
+bot.run("token_goes_here")
