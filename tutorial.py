@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix='!')
 async def help(ctx):
     text_help = '```'
     for command in bot.commands:
-        text_help+=f"!{command}, Description: {command.description or 'No Description Was Provided'}"
+        text_help+=f"!{command}, Description: {command.description or 'No Description Was Provided'}\n"
     text_help+='```'
     embed = nextcord.Embed(
         title = '',
